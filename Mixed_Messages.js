@@ -7,3 +7,22 @@ const randomFunction = () =>{
     return rNum;
 };
 
+const message_Breakdown = () => {
+    const messages_array = Messages_Storage.slice();
+    const brokenupMessages = [];
+    let count = 0;
+
+    /*
+    while (count < 3){
+        let begin = randomFunction()
+        let end = randomFunction()
+        console.log( begin, end)
+        let newWord = messages_array.slice(begin, end);
+        brokenupMessages.push(newWord);
+        count++;
+    }
+    */
+    console.log(brokenupMessages)
+};
+
+console.log(message_Breakdown(Messages_Storage))
